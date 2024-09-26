@@ -8,10 +8,10 @@ console.log(3
 console.log("hitesh");
 
 //PRIMITIVE DATATYPES//
-//nigint-> for ver large numbers
+//bigint-> for very large numbers
 //undefined-> value was not defined yet
 //null -> empty or standalone value
-// symbol-> used in raect for finding uniqueness
+// symbol-> used in react for finding uniqueness
 
 console.log(typeof undefined); //undefined
-console.log(typeof null); //object
+console.log(typeof null);
