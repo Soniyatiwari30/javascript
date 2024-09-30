@@ -58,14 +58,34 @@ const users = [
 // console.log(users[1].email)
 
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));  //it gives all keys
-console.log(Object.values(tinderUser)); //it gives all values of respective keys
-console.log(Object.entries(tinderUser)); //it gives key value pair in array form ,we rarely use it 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to search whether obj has that particular property or not
-console.log(tinderUser.hasOwnProperty("islogg"));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));  //it gives all keys
+// console.log(Object.values(tinderUser)); //it gives all values of respective keys
+// console.log(Object.entries(tinderUser)); //it gives key value pair in array form ,we rarely use it 
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to search whether obj has that particular property or not
+// console.log(tinderUser.hasOwnProperty("islogg"));
 
 
+//destructuring
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
 
+const{courseInstructor: instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
 
+// {
+//     "name":"hitesh",
+//     "coursename":"js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
