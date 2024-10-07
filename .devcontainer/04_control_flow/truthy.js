@@ -5,7 +5,6 @@
 // "0", 'false', " ", [], {}, function(){}.
 
 
-
 // const userEmail = "soni@gmail.com"
 // if (userEmail) {
 //     console.log("got user email");  
@@ -56,7 +55,7 @@ val1 = null ?? 13 ?? 20
 
 
 
-// Terniary operaor :- 
+// Terniary operator :- 
 // conditions ? true : false
 
 const iceTea = 100
